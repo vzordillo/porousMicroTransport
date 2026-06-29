@@ -1,4 +1,4 @@
-ARG OPENFOAM_VERSION=2512
+ARG OPENFOAM_VERSION=2606
 
 FROM microfluidica/reagency:openfoam${OPENFOAM_VERSION} AS dev
 
